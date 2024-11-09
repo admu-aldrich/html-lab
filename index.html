@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Espresso - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #8B4513;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2b1810;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .logo {
+            width: 200px;
+            height: 100px;
+            object-fit: contain;
+        }
+
+        nav {
+            background-color: #3c2415;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #5e3925;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            min-height: calc(100vh - 300px);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background-color: #3c2415;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #2b1810;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://img.freepik.com/premium-vector/espresso-logo-template_288067-623.jpg" alt="Digital Espresso Logo" class="logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="branches.html">Branches</a>
+            <a href="aboutus.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Digital Espresso</h1>
+            <p>Crafting Digital Excellence, One Cup at a Time</p>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h2>Premium Coffee</h2>
+                <p>Experience our carefully selected coffee beans from around the world.</p>
+            </div>
+            <div class="feature-card">
+                <h2>Expert Baristas</h2>
+                <p>Our trained professionals ensure the perfect cup every time.</p>
+            </div>
+            <div class="feature-card">
+                <h2>Multiple Locations</h2>
+                <p>Find us at convenient locations across the city.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Digital Espresso. All rights reserved.</p>
+        <p>Contact: info@digitalespresso.com</p>
+        <p>Address: 123 Coffee Street, Brew City, BC 12345</p>
+    </footer>
+</body>
+</html>
